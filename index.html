@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What to Engrave — 200+ Engraving Ideas for Jewelry, Gifts & More</title>
+  <meta name="description" content="Not sure what to engrave? Browse 200+ personalized engraving ideas for necklaces, bracelets, rings, and watches. Perfect for Mother's Day, anniversaries, birthdays, and more.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="logo">
+        <span class="logo-icon">✦</span>
+        <span class="logo-text">WhatToEngrave</span>
+      </div>
+      <nav>
+        <a href="#ideas">Ideas</a>
+        <a href="#by-occasion">By Occasion</a>
+        <a href="#by-item">By Item</a>
+        <a href="#tips">Tips</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>What Should You Engrave?</h1>
+        <p class="subtitle">200+ meaningful engraving ideas for every piece of jewelry, every occasion, and every person you love.</p>
+        <div class="search-bar">
+          <input type="text" id="searchInput" placeholder="Search ideas — try 'mom', 'anniversary', 'funny'..." oninput="filterIdeas()">
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Filter -->
+    <section class="filters-section">
+      <div class="container">
+        <div class="filters" id="filters">
+          <button class="filter-btn active" onclick="setFilter('all', this)">All Ideas</button>
+          <button class="filter-btn" onclick="setFilter('romantic', this)">Romantic</button>
+          <button class="filter-btn" onclick="setFilter('family', this)">Family</button>
+          <button class="filter-btn" onclick="setFilter('friendship', this)">Friendship</button>
+          <button class="filter-btn" onclick="setFilter('motivational', this)">Motivational</button>
+          <button class="filter-btn" onclick="setFilter('funny', this)">Funny</button>
+          <button class="filter-btn" onclick="setFilter('memorial', this)">Memorial</button>
+          <button class="filter-btn" onclick="setFilter('religious', this)">Religious</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ideas Grid -->
+    <section id="ideas" class="section">
+      <div class="container">
+        <h2>Engraving Ideas</h2>
+        <p class="section-desc">Click any idea to copy it. Short enough to fit on jewelry.</p>
+        <div class="ideas-grid" id="ideasGrid"></div>
+        <div class="no-results" id="noResults" style="display:none">No ideas match your search. Try different keywords.</div>
+      </div>
+    </section>
+
+    <!-- Ad Unit 1 -->
+    <div class="ad-container">
+      <div class="container">
+        <div class="ad-placeholder">Advertisement</div>
+      </div>
+    </div>
+
+    <!-- By Occasion -->
+    <section id="by-occasion" class="section section-alt">
+      <div class="container">
+        <h2>Ideas by Occasion</h2>
+        <p class="section-desc">Not sure where to start? Browse by the moment you are celebrating.</p>
+        <div class="occasion-grid">
+          <div class="occasion-card">
+            <div class="occasion-icon">💐</div>
+            <h3>Mother's Day</h3>
+            <ul>
+              <li>"Always my greatest adventure"</li>
+              <li>"Home is wherever mom is"</li>
+              <li>"Her love, my anchor"</li>
+              <li>"Grateful for you every day"</li>
+              <li>"My first forever friend"</li>
+            </ul>
+            <a href="https://www.etsy.com/shop/KeptForever" target="_blank" class="btn-shop">Shop Personalized Jewelry →</a>
+          </div>
+          <div class="occasion-card">
+            <div class="occasion-icon">💍</div>
+            <h3>Anniversary</h3>
+            <ul>
+              <li>"Still the one"</li>
+              <li>"Every moment with you"</li>
+              <li>"My favorite hello"</li>
+              <li>"Always & forever"</li>
+              <li>"You are my today and all my tomorrows"</li>
+            </ul>
+            <a href="https://www.etsy.com/shop/KeptForever" target="_blank" class="btn-shop">Shop Personalized Jewelry →</a>
+          </div>
+          <div class="occasion-card">
+            <div class="occasion-icon">🎂</div>
+            <h3>Birthday</h3>
+            <ul>
+              <li>"Born to shine"</li>
+              <li>"This is your year"</li>
+              <li>"Life is beautiful"</li>
+              <li>"Age is just a number"</li>
+              <li>"Here's to another adventure"</li>
+            </ul>
+            <a href="https://www.etsy.com/shop/KeptForever" target="_blank" class="btn-shop">Shop Personalized Jewelry →</a>
+          </div>
+          <div class="occasion-card">
+            <div class="occasion-icon">🎓</div>
+            <h3>Graduation</h3>
+            <ul>
+              <li>"The best is yet to come"</li>
+              <li>"Go get it"</li>
+              <li>"Your time to shine"</li>
+              <li>"Dream big, work hard"</li>
+              <li>"Begin anywhere"</li>
+            </ul>
+            <a href="https://www.etsy.com/shop/KeptForever" target="_blank" class="btn-shop">Shop Personalized Jewelry →</a>
+          </div>
+          <div class="occasion-card">
+            <div class="occasion-icon">💝</div>
+            <h3>Valentine's Day</h3>
+            <ul>
+              <li>"I choose you, always"</li>
+              <li>"In a world full of people, I choose you"</li>
+              <li>"You are my person"</li>
+              <li>"I love you more"</li>
+              <li>"My heart, always yours"</li>
+            </ul>
+            <a href="https://www.etsy.com/shop/KeptForever" target="_blank" class="btn-shop">Shop Personalized Jewelry →</a>
+          </div>
+          <div class="occasion-card">
+            <div class="occasion-icon">✝️</div>
+            <h3>Memorial / Remembrance</h3>
+            <ul>
+              <li>"Forever in my heart"</li>
+              <li>"Not lost, just gone before"</li>
+              <li>"Always with me"</li>
+              <li>"Your memory lives on"</li>
+              <li>"Until we meet again"</li>
+            </ul>
+            <a href="https://www.etsy.com/shop/KeptForever" target="_blank" class="btn-shop">Shop Personalized Jewelry →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ad Unit 2 -->
+    <div class="ad-container">
+      <div class="container">
+        <div class="ad-placeholder">Advertisement</div>
+      </div>
+    </div>
+
+    <!-- By Item -->
+    <section id="by-item" class="section">
+      <div class="container">
+        <h2>Ideas by Jewelry Type</h2>
+        <p class="section-desc">Character limits vary. Here is what fits on each piece.</p>
+        <div class="item-grid">
+          <div class="item-card">
+            <h3>📿 Necklace / Pendant</h3>
+            <p class="char-limit">Typically 15–25 characters</p>
+            <ul>
+              <li>A name or initials</li>
+              <li>A date (01.15.2019)</li>
+              <li>A short word: "Brave" / "Loved" / "Grace"</li>
+              <li>Coordinates of a meaningful place</li>
+              <li>A small symbol: ∞ ♡ ✦ ☽</li>
+            </ul>
+          </div>
+          <div class="item-card">
+            <h3>⌚ Watch / Back of Watch</h3>
+            <p class="char-limit">Typically 40–80 characters</p>
+            <ul>
+              <li>Full name + date</li>
+              <li>A short quote</li>
+              <li>A message from the giver</li>
+              <li>"To [name], with love, [date]"</li>
+              <li>A song lyric line</li>
+            </ul>
+          </div>
+          <div class="item-card">
+            <h3>💍 Ring</h3>
+            <p class="char-limit">Typically 10–20 characters inside band</p>
+            <ul>
+              <li>Initials + date: "J&M 06.14.22"</li>
+              <li>A single word: "Forever" / "Always"</li>
+              <li>"I love you" in another language</li>
+              <li>A personal nickname</li>
+              <li>Roman numerals of a date</li>
+            </ul>
+          </div>
+          <div class="item-card">
+            <h3>🔖 Bracelet / Cuff</h3>
+            <p class="char-limit">Typically 20–35 characters</p>
+            <ul>
+              <li>A name + short phrase</li>
+              <li>"She believed she could"</li>
+              <li>A mantra or daily reminder</li>
+              <li>Birthstone month + year</li>
+              <li>A meaningful date in full</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tips -->
+    <section id="tips" class="section section-alt">
+      <div class="container">
+        <h2>Engraving Tips</h2>
+        <p class="section-desc">Get the most out of your personalized piece.</p>
+        <div class="tips-grid">
+          <div class="tip-card">
+            <div class="tip-num">01</div>
+            <h3>Keep it short</h3>
+            <p>Fewer words carry more weight. "Always" hits harder than a full sentence. When in doubt, cut it in half.</p>
+          </div>
+          <div class="tip-card">
+            <div class="tip-num">02</div>
+            <h3>Use a date that matters</h3>
+            <p>Wedding dates, birthdays, the day you met — dates make engraving deeply personal and impossible to duplicate.</p>
+          </div>
+          <div class="tip-card">
+            <div class="tip-num">03</div>
+            <h3>Check the character limit first</h3>
+            <p>Ask the seller how many characters fit before finalizing your text. Too long and the engraving will be unreadable.</p>
+          </div>
+          <div class="tip-card">
+            <div class="tip-num">04</div>
+            <h3>Proofread three times</h3>
+            <p>Engraving is permanent. Double check spelling, dates, and punctuation before you submit your order.</p>
+          </div>
+          <div class="tip-card">
+            <div class="tip-num">05</div>
+            <h3>Coordinates are underrated</h3>
+            <p>GPS coordinates of where you met, got married, or grew up create a beautifully subtle, meaningful message.</p>
+          </div>
+          <div class="tip-card">
+            <div class="tip-num">06</div>
+            <h3>Consider the recipient</h3>
+            <p>Funny works for some people. Sentimental for others. Think about their personality, not just the occasion.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-card">
+          <h2>Ready to Order Your Personalized Piece?</h2>
+          <p>KeptForever handcrafts custom engraved jewelry — necklaces, bracelets, and pendants delivered in a beautiful gift box.</p>
+          <a href="https://www.etsy.com/shop/KeptForever" target="_blank" class="btn-cta">Shop KeptForever on Etsy →</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-brand">
+        <span class="logo-icon">✦</span>
+        <span class="logo-text">WhatToEngrave</span>
+      </div>
+      <p class="footer-desc">Your guide to meaningful, personalized engraving ideas.</p>
+      <p class="footer-copy">&copy; 2026 WhatToEngrave.com. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
